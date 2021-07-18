@@ -31,14 +31,14 @@ https://www.toptal.com/developers/gitignore
 
 ### Github Command
 ```
-(Remote del)
+1. Remote del
 git remote -v
 git remote rm origin
 
-(Readme)
+2. Readme
 echo "# android-template-2" >> README.md
 
-(New)
+3. push
 git config --global user.name "jogilsang"
 git config --global user.email jogilsang@gmail.com
 git init
@@ -48,27 +48,22 @@ git commit -m "update"
 git remote add origin [git address]
 git push -f origin master
 
-(Modifyed)
+4. Modifyed
 git add -A
 git commit -m "update"
 git push -f origin master
 
-(Specify path or folder Download, 특정경로,특정폴더)
-src : https://www.lesstif.com/pages/viewpage.action?pageId=20776761
-
-<COPY_GIT> -> 폴더이름(Forder Name)
-.git/info/sparse-checkout -> 옵션이름 (Option Name)
-
-git init <COPY_GIT>
-cd <COPY_GIT>
+5. (Specify path or folder Download, 특정경로,특정폴더)
+mkdir RecyclerViewKotlin
+cd RecyclerViewKotlin
+git init RecyclerViewKotlin
+cd RecyclerViewKotlin
 git config core.sparseCheckout true
-git remote add -f origin <REMOTE_URL>
-
-echo "you want folder" >> .git/info/sparse-checkout
+git remote add -f origin https://github.com/android/views-widgets-samples.git
+echo "RecyclerViewKotlin/" >> .git/info/sparse-checkout
 git pull origin master
-(ex : echo "MyTabLayout/etc" >> .git/info/sparse-checkout)
 
-(Download)
+6. Download
 git clone [git address]
 git pull [git address]
 ```
