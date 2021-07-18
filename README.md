@@ -1,6 +1,6 @@
 # Manual-Github
 
-## Posting
+## My Posting
 - HOW To USE GIT
   - [깃(GIT) - (1) 설치 및 GUI 사용해보기, git-fork](https://blog.naver.com/jogilsang/221867348353)
   - [깃(GIT) - (2) log, branch, merge, 브런치 생성 및 머지](https://blog.naver.com/jogilsang/221943440011)
